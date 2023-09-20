@@ -75,8 +75,8 @@ def iphone_bot_core():
 #telegram notifier
 def manda_alert(message):
 
-    apiToken = '6301682380:AAEAj47JVDR5jBGJYQcwqujg_Q0b_28ZQbY'
-    chatID = '79141739'
+    apiToken = 'Inserisci qui il token'
+    chatID = 'Inserisci qui il chat id'
     apiURL = f'https://api.telegram.org/bot{apiToken}/sendMessage'
 
     try:
